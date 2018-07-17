@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html class="no-js no-touch">
+  {% include header.html %}
+  <body>
+    {% gtm body %}
+    <div id="cbp-so-scroller" class="cbp-so-scroller">
+   
+    <!--BEGIN-HEADER-->
+    {% include nav.html %}
+    <!--END-HEADER-->
+    {{content}}
+    
+    <!-- Footer -->
+    {% include footer.html %}
+  </div>
+
+  <!--BEGIN-SCRIPTS--> 
+  {% include js.html %}
+  <!--END-OF-SCRIPTS-->
+  </body>
+</html>
